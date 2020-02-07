@@ -3,7 +3,7 @@
 
 
 
-- Clone this repo to your local machine using https://github.com/asmaakinawy/starwars_repo.git
+- Clone this repo to your local machine using https://github.com/asmaakinawy/Asmaa_StarWars_task.git
 
 ```shell
 $ cd Asmaa_StarWars_task/
