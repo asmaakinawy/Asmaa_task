@@ -3,10 +3,9 @@
 
 
 
-- Clone this repo to your local machine using https://github.com/asmaakinawy/Asmaa_StarWars_task.git
-
+- Clone this repo to your local machine using https://github.com/asmaakinawy/Asmaa_task.git
 ```shell
-$ cd Asmaa_StarWars_task/
+$ cd Asmaa_task/
 $ virtualenv venv -p python3
 $ source venv/bin/activate
 $ pip install -r requirements.txt
