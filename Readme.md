@@ -18,4 +18,8 @@ $ flask run
 
 
 - You can run testcases using 
-  # python test_char_unittest.py 
+
+```shell
+
+  $ python test_char_unittest.py 
+  ```
