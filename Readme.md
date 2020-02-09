@@ -14,4 +14,8 @@ $ export FLASK_APP=my_task.py
 $ flask run
 ```
 
-You can run using the attached postman collection.
+- You can run using the attached postman collection.
+
+
+- You can run testcases using 
+  # python test_char_unittest.py 
