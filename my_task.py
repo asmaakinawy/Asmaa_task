@@ -11,9 +11,13 @@ app = Flask(__name__)
 def get_charachter_details():
 	data = []
 
-
 	url = "https://swapi.co/api/people/?search=%s" %escape(request.json["name"])
 	response = requests.get(url)
+
+	if response.status_code is not 200:
+		data.append({"status code": response.status_code, 
+			"status": "server error from the external api"})
+		return (json.dumps(data))
 
 	stars = json.loads(response.text)["results"]
 	if stars:
